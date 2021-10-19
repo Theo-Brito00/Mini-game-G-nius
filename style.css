@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    background: #1e5799;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#1e5799), color-stop(100%,#7db9e8));
+    background: -webkit-linear-gradient(top,  #1e5799 0%, #7db9e8 100%);
+    background:    -moz-linear-gradient(top,  #1e5799 0%, #7db9e8 100%);
+    background:     -ms-linear-gradient(top,  #1e5799 0%, #7db9e8 100%);
+    background:      -o-linear-gradient(top,  #1e5799 0%, #7db9e8 100%);
+    background:         linear-gradient(to bottom, #1e5799 0%, #7db9e8 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 );
+    background-attachment: fixed;
+    
+}  
+.genesis {
+    background-color: thistle;
+    border-bottom-left-radius: 20%;
+    grid-gap: 15px;
+}
+
+.main-game {
+    height: 100vh;
+    width: 200vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.genius {
+    display: grid;
+    grid-template-areas: "verde vermelho"
+    "amarelo azul";
+    grid-gap: 15px;
+    border: 15px solid black;
+    background-color: white;
+    border-radius: 150%;
+    width: 900px;
+    height: 900px;
+}
+
+.blue {
+    grid-area: azul;
+    grid-gap: 100px;
+    background-color: rgb(55, 126, 207);
+    border-bottom-right-radius: 126%;
+}
+
+.red {
+    grid-gap: 100px;
+    grid-area: vermelho;
+    background-color: red;
+    border-top-right-radius: 126%;
+}
+
+.yellow {
+    grid-gap: 100px;
+    grid-area: amarelo;
+    background-color: yellow;
+    border-bottom-left-radius: 126%;
+
+}
+
+.green {
+    grid-gap: 100px;
+    grid-area: verde;
+    background-color: green;
+    border-top-left-radius: 126%;
+}
+
+.select {
+    opacity: 0.8;
+}
+
