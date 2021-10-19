@@ -3,5 +3,5 @@ Criação feita através de um Desafio dado Pelo o ("BOOTCAMP FULLSTACK") da Dig
 ## Links úteis
 [Sintaxe básica Markdown](https://www.markdownguide.org/getting-started/)
 ### Linkedin
-[Linkedin](www.linkedin.com/in/jose-teogenes)
+[My User](www.linkedin.com/in/jose-teogenes)
 
